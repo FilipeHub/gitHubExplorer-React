@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiChevronRight } from 'react-icons/fi';
 
 import { Title, Form, Repositories } from './styles';
 
@@ -22,6 +23,34 @@ const Dashboard: React.FC = () => (
           <strong>/repository/test</strong>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
         </div>
+
+        <FiChevronRight size={20} />
+      </a>
+
+      <a href="teste">
+        <img
+          src="https://avatars.githubusercontent.com/u/18223265?v=4"
+          alt="Perfil"
+        />
+        <div>
+          <strong>/repository/test</strong>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
+
+        <FiChevronRight size={20} />
+      </a>
+
+      <a href="teste">
+        <img
+          src="https://avatars.githubusercontent.com/u/18223265?v=4"
+          alt="Perfil"
+        />
+        <div>
+          <strong>/repository/test</strong>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
+
+        <FiChevronRight size={20} />
       </a>
     </Repositories>
   </>
